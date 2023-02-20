@@ -9,14 +9,15 @@ func main() {
 	// var c  = int(a) 
 	// fmt.Println(c)
 
-	a,b := 2,10
-	fmt.Println(a + b)
-	fmt.Println(a != b)
+	// Math
+	// a,b := 2,10
+	// fmt.Println(a + b)
+	// fmt.Println(a != b)
 	
 	// Pointer
-	x := 20
-	y := &x 
-	fmt.Println(y) //print memory address of x
-	fmt.Println(*y) //print value of x
+	// x := 20
+	// y := &x 
+	// fmt.Println(y) //print memory address of x
+	// fmt.Println(*y) //print value of x
 
 }	

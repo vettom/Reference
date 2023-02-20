@@ -44,8 +44,10 @@ Constant is a variable whose value does not change. Constant can be assigned to 
 When assigning a value of variable a to  b, value is copied to b. Subsequently if a changes, value of b does not. 
 Pointer is when variable point to location of a. So when a changes, value of b also changes. Simply printing value of b prints memory location, not actual value. Use *b to get value
 ```go
-	a := 10
-	b = a //Value of a assigned
-	b = &a //b is pointer to a
-	*b // is 10
-	b // value is memory address of a
+	// value is memory address of a
+	x := 20
+	y := &x // y is assigned memory address of x
+	fmt.Println(y) //print memory address of x
+	fmt.Println(*y) //print value of x
+	```
+
