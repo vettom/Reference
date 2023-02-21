@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block Title %} Server View {% endblock %}
+{% block Body %}
+<H2> Server View </H2>
+<p> <a href="{{ url_for('home') }}"> Home</a> </p>
+<p> Some data on page</p>
+
+     <H2>
+         {{Data}}
+     </H2>
+<hr>
+    <h3>{{Srv}}</h3>
+    <p> {{IP}}  </p>
+
+        <a href="{{ url_for('home') }}"> Home</a>
+        <p>
+            {% if Index == 2: %}
+                <a href="{{ url_for('server_view', Index=Index + 1) }}"> Third Index</a>
+            {% else %}
+                <a href="{{ url_for('server_view', Index=Index + 1) }}"> <button >Next </button></a>
+            {% endif %}
+            <a href="{{ url_for('delete', Index=Index) }}"><button >Delete? </></button>
+        </p>
+
+
+<hr>
+{% endblock %}

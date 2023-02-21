@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block Title %} Forms page {% endblock %}
+{% block Body %}
+<body>
+<H2> Add new server</H2>
+<form method="POST">
+    <p> Server name : <input type="text" name="ServerName"> </p>
+    <p> IP Address : <input type="text" name="IPA"> </p>
+    <input type="submit"> </input>
+</form>
+
+{% endblock %}

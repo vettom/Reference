@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome page</title>
+</head>
+<body>
+<H2> Delete Entry </H2>
+<p> <a href="{{ url_for('home') }}"> Home</a> </p>
+<p> Some data on page</p>
+
+     <H2>
+         {{Data}}
+     </H2>
+<hr>
+    <h3>{{Srv}}</h3>
+    <p> {{IP}}  </p>
+    <form method="POST" >
+      <p>   <input type="button" Name="Server", Value="{{Srv}}">
+      <input type="button" Name="IP", Value="{{IP}}"></p>
+        <input type="hidden" Name="Index" value="{{Index}}">
+        <input type="Submit" value="Delete above entry?">
+
+    </form>
+
+        <a href="{{ url_for('home') }}"> Home</a>
+<!--        <p>-->
+<!--            {% if Index == 2: %}-->
+<!--                <a href="{{ url_for('server_view', Index=Index + 1) }}"> Third Index</a>-->
+<!--            {% else %}-->
+<!--                <a href="{{ url_for('server_view', Index=Index + 1) }}"> Next</a>-->
+<!--            {% endif %}-->
+<!--        </p>-->
+
+
+<hr>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block Title %} Welcome {% endblock %}
+{% block Body %}
+<H2> Heading for my welcome page</H2>
+<p> <a href="{{ url_for('home') }}"> Home</a>
+    <a href="{{ url_for('form') }}"> Form</a>
+</p>
+
+<p> Some data on page</p>
+<img src="/static/dv-tec-logo.png" />
+     <H2>
+         {{Data}}
+     </H2>
+<p><a href="{{ url_for('server_view', Index=0) }}"> Server View</a></p>
+<hr>
+<H2>List of Items</H2>
+<UL>
+    {% for X in DB: %}
+       <li> {{X['Server']}}</li>
+    {% endfor %}
+
+</UL>
+{% endblock %}
+
