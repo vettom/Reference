@@ -56,22 +56,6 @@ Hosted DNS solution by Google
 - Dedicated interconnect 
 - Partner interconnect. 
 
-# Storage
-- Cloud Storage (Bucket)
-	- standard
-	- Nearline like once a month access
-	- Coldline (access once in 90 days)
-	- Archive storage (1s year)
-- Cloud SQL
-- Cloud Spanner (SQL)
-- Firestore, No-SQL
-	- Data stored as documents and collections.
-- Cloud Bigtable (Big Data)
-	- No SQL
-	- Semi-structured or structured data
-	- Machine learning data
-	- Analytical structured data
-
 
 # App Engine
 ### Standard
