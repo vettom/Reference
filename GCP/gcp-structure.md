@@ -16,7 +16,11 @@ Org ID
 
 # Quotas
 Default quotas are configured to stop run away resources 
+- Rate quota
+- Allocation quota 
 
 # Tags and Labels
 Tags are usually assigned to instances only and used for netowrking/firewall
 Labels are filtered thrugh to billing as well
+
+# Projects
