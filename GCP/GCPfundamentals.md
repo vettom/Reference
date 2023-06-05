@@ -81,11 +81,15 @@ Hosted DNS solution by Google
 # Cloud Run
 - Run stateless containers
 - serverless
+- built on knative
+- stateless containers
+
 
 # Cloud Source Repo
 - Google managed Git
 # Cloud Functions
 - Small event based compute aka lambda
+- Charges only when code is running
 
 
 
