@@ -48,3 +48,24 @@
 # Choosing LB
 - Only proxy LB supports IP v6
 - LB can act as reverse proxy to server traffic
+
+
+# Deployments
+- Blue-green
+	Complete new environment, and switch with service selector label
+- Canary deploy
+	Portion of traffic diverted by using same label and managing number of pods. Not best without tool like Istio
+- A/B testing
+  Portion of traffic based on routing rule like Http header, geo location, etc. Ideal to measure effectiveness of functionality. For eg: new features, and select target customer
+- Shadow testing
+	Deploy and run running along side but hidden. Incoming requests are mirrored and replayed in mirrored env. Must ensure shadow test do not trigger side effect. Allows testing of new features with full traffic without impacting production.
+
+# Rollout
+	kubectl rollout manages deployment of Deployments, daemonsets or Stateful sets
+	kubectl rollout undo to rollback to prev version. 
+	By default previos 10 version information retained
+
+	kubectl scal --replicas to scale deployment
+
+> Use session affinity in LB if switching between different version can cause issue.
+> Volume: DownwardAPI enables container to  identify pod it is running. Useful if container app should be uniq in cluster.
