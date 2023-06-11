@@ -120,3 +120,11 @@ Debugger supports live snapshot of production app
 
 # Service monitoring
 - Summary of service status, SLI status etc
+
+# Network Intelligence Center
+Diagnose network connectivity issue, improve security and monitor real time network perfoamcne
+- Connectivity test
+- Performance Dash
+- Network topology
+- Fireall insights
+- Network analyzer
