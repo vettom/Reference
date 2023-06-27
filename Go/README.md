@@ -22,8 +22,31 @@ Variable declared with type, or go can infer
 	var name = "vettom" //initialise with value
 	var name = "vettom" // with inferred type
 	name := "vettom" // Short declaration syntax
-	a,b = 2,4
+	a,b = 2,4 // Multy variable assignment
+	var a, b = 6, "Hello" // Different type of values can be declared without type
+  	c, d := 7, "World!"
+
+ // Variable can be configured in block
+   var (
+    a int
+    b int    = 1
+    c = "hello"
+  )
 ```
+# Difference Between var and :=
+- var can be used global, however := only with in functions
+- Var can declare variable with out value
+
+## print vs println
+- println will add whitespaces between arguments and new line at end
+## print ()
+%v is used to print the value of the arguments
+%T is used to print the type of the arguments
+```go
+	fmt.Printf("i has value: %v and type: %T\n", i, i)
+	  fmt.Printf("j has value: %v and type: %T", j, j)
+```
+
 ### Type conversion ans constant
 Go does not allow mixed type and type conversion can be used to change type
 Constant is a variable whose value does not change. Constant can be assigned to variable.
