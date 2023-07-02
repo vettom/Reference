@@ -7,7 +7,6 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/spf13/viper"
 )
 
 type Target struct {
@@ -46,12 +45,11 @@ func fetchData() {
 }
 
 func fetchEndpoint(appname, conf string) string {
-	vi := viper.New()
-	vi.SetConfigFile(conf)
-	vi.ReadInConfig
+	yamlFile, err := ioutil.ReadFile(conf) 
 	if err != nil {
-		log.Fatal("Error: failed to open endpoints.yaml")
+		log.Fatal(err)
 	}
+	return yamlFile
 
 }
 
