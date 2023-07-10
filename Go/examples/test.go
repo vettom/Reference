@@ -1,17 +1,15 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/spf13/viper"
-)
+import "fmt"
 
 func main() {
-	vi := viper.New()
-	vi.SetConfigFile("endpoints.yaml")
-	vi.ReadInConfig()
-	for Link in v1.GetString() {
-		fmt.Println(Link)
-	}
+	mySlice := []string{"Hi", "There", "how", "are", "you?"}
 
+	updateSlice(mySlice)
+
+	fmt.Println(mySlice)
+}
+
+func updateSlice(s []string) {
+	s[0] = "Bye"
 }
