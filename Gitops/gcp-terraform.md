@@ -2,7 +2,7 @@
 
 # Terraform
 - [ ] Local TF install
-    - Formt tf code with terraform fmt
+    - Format tf code with terraform fmt
     - Validate code with Terraform validate
     - Install [tfswitch](https://github.com/warrensbox/terraform-switcher)
     - Set terraform plugins directory outside of repo
