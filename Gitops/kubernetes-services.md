@@ -33,10 +33,20 @@ These tasks can be completed on local installation of K8s
     - Create Cert issuer (LetsEncrypt staging) with Http verification
     - Configure certmanager to issue certificate to ingresses created (via Annotation)
     - Some examples [devops-k8s-setup](https://gitlab.com/dennyvettom/devops-k8s-setup)
+- [ ] [Vault secret](https://developer.hashicorp.com/vault/tutorials?product_intent=vault)
+    - Run local Vault server in Dev mode
+    - Create secretstore to store secrets
+    - Create Vault server in production mode
+    - Unseal Vault
+
+- [ ] Vault Advanced
+    - Configure Kubernetes Authentication method
+    - Configure Kubernetes to use Vault Auth with Service Account
+    
 
 - [ ] [External Secrets](https://external-secrets.io/latest/)
     - Create some secret in Vault or any other secret manager.
-    - Create secretStore in cluster
+    - Create secretStore in cluster with Vault Backend
     - Create externalSeret that retrive secret and creates secret object
 
 - [ ] [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets)
