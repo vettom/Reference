@@ -9,7 +9,7 @@
     - Lint tf code with [tflint](https://github.com/terraform-linters/tflint/releases)
     - run tfsec on tf code
 
-- [ ] State file
+- [ ] [Remote State file](https://github.com/vettom/github-action-aws-tf)
     - Store state file in S3 with Dynamodb lock
     - Import a resource to tfstate (Eg: instance)
 
