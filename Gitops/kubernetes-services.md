@@ -8,6 +8,16 @@ These tasks can be completed on local installation of K8s
     - Enable ingress
     - Deploy simple web app
     - Enable ingress and validate.
+
+- [ ] General K8S
+    - Create configMap
+    - Mount ConfigMap in pod
+    - Create a secret
+    - Mount secret as file
+    - Create secret with multiple entires
+    - mount all secrets at mount point in pod
+    - Mount secret to Env variable in Pod
+
 - [ ] Web app and Helm
     - Create simple Web app [sample flask app](https://github.com/vettom/Flask)
     - Push image to Docker Hub or any other registry
@@ -17,14 +27,6 @@ These tasks can be completed on local installation of K8s
         - Add ingress
         - App version as value
         - Option to enable/disable ingress based on value input
-- [ ] General K8S
-    - Create configMap
-    - Mount ConfigMap in pod
-    - Create a secret
-    - Mount secret as file
-    - Create secret with multiple entires
-    - mount all secrets at mount point in pod
-    - Mount secret to Env variable in Pod
 
 - [ ] [Certificate manager](https://cert-manager.io/docs/   )
     - Install Certificate manager
@@ -42,6 +44,10 @@ These tasks can be completed on local installation of K8s
     - Create a sealed secret with cluster CA Cert
     - Make secret available in pod
 
+- [ ] [External DNS](https://github.com/kubernetes-sigs/external-dns)
+    - Install external DNS
+    - Configure DNS entry to be created for every ingress
+
 # Create a repo in Github/Gitlab to host your applicaiton helm chart
 
 - [ ] [Argo CD](https://argo-cd.readthedocs.io/en/stable/)
@@ -58,9 +64,17 @@ These tasks can be completed on local installation of K8s
 - [ ] Argo as app
     # Once installed, Argocd itlesf can be app in Argo. 
     - Create a project for Argo
-    - Create app for Argo
+    - Create app for Argo with ingress
     - Deploy/refresh Argo app from Argo console
     - Upgrade/downgrade Argocd version by passing value
     - Deploy new version of Flask app by updating version tag
     - Experiment with auto/manual deployment 
 
+# Combine all together
+- [ ] App Deploy
+    - Prepare cluster with core apps
+    - Install your web app
+        - Ingress configured
+        - DNS configured auto or manual
+        - Has certificate
+        - Gets Secret from external secret source
