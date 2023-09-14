@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return  render_template("welcome.html", Data="It works. Updated", Index=0, DB=DB)
+    return  render_template("welcome.html", Data="Server list", Index=0, DB=DB)
 
 @app.route("/form/", methods=["GET", "POST"])
 def form():
