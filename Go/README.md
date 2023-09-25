@@ -2,6 +2,9 @@
 - Is compiled language
 -
 
+## Useful tool
+[Create struct](https://transform.tools/json-to-go)
+
 ## simple Data types
 - string
 	- Interpreted : Can add formatting with in double quotes "I am \n good "
