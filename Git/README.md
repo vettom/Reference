@@ -11,7 +11,6 @@ git push origin v1.0.0
 git tag --delete v1.0.0
 # Delete tag remote
 git push --delete origin v1.0.0
-
 # Create branch from tag
 git checkout -b newbranch v1.0.0
 

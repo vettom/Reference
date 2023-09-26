@@ -12,3 +12,8 @@
 
 ## Network
 - [Visual subnet calculator](https://www.fryguy.net/wp-content/tools/subnets.html)
+
+## Web Tools
+- [Whiteboard](https://webwhiteboard.com/)
+- [Free illustrations](https://blush.design/)
+- [Magic eraser photo](https://magicstudio.com/magiceraser/)
