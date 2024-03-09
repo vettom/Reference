@@ -43,7 +43,7 @@
 - Scorer on right and timer in the middle
 - Home team on left
 
-## Duties of timee
+## Duties of timer
 - Longth of playing, breaks, 20min prior to tip off
 - Notify 3 min advance first Q, 90sec second Q, 30sec 3,4th q
 - Timeout clock and sound when opportunity
@@ -53,10 +53,15 @@
 - Lift team foul markers
 - Alert shot clock operator in last 24 sec and 14sec for overtime
 
+## Jump ball direction
+- At tip, set direction towards the team who won first possession
+- At half time change direction to accomodate change of ends
+- Change direction at each jump ball situation
 
-# Substitution can
-- In last two minutes of the fourth quarter, or any overtimes, after a team has been scored on, that team can substitute players.
-- Similar to time-outs, both teams can make a substitution after a made last or only free throw:
+## Substitution can
+- Substitution can only happen in a dead ball situation when clock is stopped.
+- In last two minutes of the fourth quarter, or any overtimes : after a team has been scored on, that team can substitute players.
+- Similar to time-outs, both teams can make a substitution after a made last or only free throw success.
 - Players can also be substituted during an interval of play, in between quarters or during the half time break and during time-outs. 
 
 ## Timeout
@@ -85,6 +90,10 @@
 - score 1, filled circle over score
 - When a player comes to court, mark X to indicate they played
 
+### Fouls
+- A player can have maximum 5 fouls
+- When a team commited 4  fouls in quarter, additional fouls in quarter will result in 2 free throw (except offensive foul)
+
 ### Scoresheet Fouls
 - P personal
 - Pc Personel cancelled out
@@ -105,6 +114,7 @@
 - == acros any unused team fouls
 - == acros unuses timeout
 - At half time draw line aroung all the fouls committed
+
 ### End of game
 - == Double line under last score
 -  Circle the current score
