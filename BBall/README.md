@@ -1,3 +1,59 @@
+# Basketball rules
+
+## Coaching team
+-  Team list to be provided by coach at least 40min with Captain marked
+- Coach mark starting 5 and sign 10min before. Team A does it first
+- Coach or named Assistant coach allowd to call timeout
+- Only coach/Assis can approach bench
+- Players in bench request substitution to scorer
+
+## Playing team
+- 12 players, 1 coach, 1 captain
+- Up to 8 accompanying including 2 assis coach
+- Playing numbers 0-99
+
+## officiating team
+- Must include crew chief, umpire, scorer and timer
+- Full is Crew Chief, 2 umpires, commissioner, scorer, Ass scorer, timer shot clock op, 3 stat
+
+## Playing regulation
+- 5 players on court at any time
+- 4*10 quarters
+- 15min Halftime or less
+- 2 min between breaks
+- 1 min time out 2 per team in first half
+- 3 timeout per team in second half of with first must be taken before last 2 min
+- 1 each timeout for each over time
+
+## Table officials equipment
+- 1 score book
+- 5 official foul markers
+- 1 sounding device
+- 1 shot clock
+- 1 Scoreboard with 2 clocks. gameclock and timeout clock
+- Alternating possession arrow
+
+### Official bring
+- 2 different color pen Red and black or blue
+- ruler
+- scrap paper
+- Uniform
+
+## Layout
+- Scorer on right and timer in the middle
+- Home team on left
+
+## Duties of timee
+- Longth of playing, breaks, 20min prior to tip off
+- Notify 3 min advance first Q, 90sec second Q, 30sec 3,4th q
+- Timeout clock and sound when opportunity
+- When ref give timeout start stop watch and sound at 50sec, and end of timeout
+- Operate score board
+- Raise personal foul markers
+- Lift team foul markers
+- Alert shot clock operator in last 24 sec and 14sec for overtime
+
+
 # Substitution can
 - In last two minutes of the fourth quarter, or any overtimes, after a team has been scored on, that team can substitute players.
 - Similar to time-outs, both teams can make a substitution after a made last or only free throw:
