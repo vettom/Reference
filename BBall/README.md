@@ -1,4 +1,4 @@
-# Basketball rules
+# Basketball Officiating rules
 
 ## Coaching team
 -  Team list to be provided by coach at least 40min with Captain marked
@@ -72,7 +72,7 @@
 - Only 2 timeouts in last 2 min of 4th Q.
 - First timeout in second half must be taken before last 2min in 4th or lose it
 - Timeout starts when Ref calls it
-- Timer sound at 50 and 1 min
+- Timer sound at 50sec and 1 min
 
 ### When can timeout be awarded
 - When violation or a foul call
@@ -87,7 +87,7 @@
 - Red for Q1 and 3, rest blue or black
 - player score 2, strike score and player number
 - score 3, strike score, and circle player number
-- score 1, filled circle over score
+- score 1, filled smudge over score
 - When a player comes to court, mark X to indicate they played
 
 ### Fouls
@@ -102,7 +102,7 @@
 - D Dis qualified
 - C Technical for coach
 - B Technical on Bench
-- if free throw, that will be added, P2
+- if free throw, that will be added, P1,P2
 
 ### Scoresheet timeout
 -  Timeout entered 10-full min. If called at clock at 6, enter 10-6=4 
@@ -113,7 +113,7 @@
 - enter total for the quarter
 - == acros any unused team fouls
 - == acros unuses timeout
-- At half time draw line aroung all the fouls committed
+- At half time draw line/box around all the fouls committed
 
 ### End of game
 - == Double line under last score
