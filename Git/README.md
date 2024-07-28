@@ -16,3 +16,18 @@ git checkout -b newbranch v1.0.0
 
 ```
 
+## Git delete all commit history
+```bash
+# Checkkout main branch and then create orphan branch
+git checkout --orphan temp_branch
+
+#Add all files and commit
+git add -A ; git commit -m "Initial commit"
+
+# Delete main branch and rename current branch
+git branch -D main ; git branch -m main
+
+# Push changes
+git push --force origin main 
+
+```

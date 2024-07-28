@@ -22,7 +22,7 @@
 - 15min Halftime or less
 - 2 min between breaks
 - 1 min time out 2 per team in first half
-- 3 timeout per team in second half of with first must be taken before last 2 min
+- 3 timeout per team in second half of with first must be taken before last 2 min  
 - 1 each timeout for each over time
 
 ## Table officials equipment
